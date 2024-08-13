@@ -1,7 +1,7 @@
 import React from 'react'
 import Cards from '../Components/Cards'
 import {Link} from "react-router-dom"
-import list from '../../public/list.json'
+// import list from '../../public/list.json'
 
 
 
