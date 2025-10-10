@@ -1,3 +1,4 @@
+
 {
   "name": "bookstor",
   "version": "1.0.0",
@@ -7,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "dev":"nodemon index.js",
+    "dev": "nodemon index.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
