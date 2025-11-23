@@ -9,6 +9,11 @@
       "roleCategory": "Guest",
       "roleName": "Visitor",
       "occupancyStatus": "NA"
+    },
+    {
+      "roleCategory": "Temporary Guest",
+      "roleName": "Visitor",
+      "occupancyStatus": "NA"
     }
   ]
   
