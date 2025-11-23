@@ -1,0 +1,14 @@
+[
+    {
+      "roleCategory": "super_admin",
+      "roleName": "Super Admin",
+      "occupancyStatus": "NA"
+    },
+   
+    {
+      "roleCategory": "Guest",
+      "roleName": "Visitor",
+      "occupancyStatus": "NA"
+    }
+  ]
+  

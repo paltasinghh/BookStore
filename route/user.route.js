@@ -1,9 +1,18 @@
 import express from "express";
-import { signup, login } from "../Controller/user.controller.js";
+import {
+  createUser,
+  getAllUsers,
+  getUserById,
+  updateUser,
+  deleteUser,
+} from "../Controller/user.controller.js";
 
 const router = express.Router();
 
-router.post("/signup", signup);  // Pass the signup function here
-router.post("/login", login);
+router.post("/signup", createUser);
+router.get("/", getAllUsers);
+router.get("/:id", getUserById);
+router.put("/:id", updateUser);
+router.delete("/:id", deleteUser);
 
 export default router;
